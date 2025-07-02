@@ -1,0 +1,15 @@
+max_new_tokens: 448
+num_beams: 1
+condition_on_prev_tokens: false
+compression_ratio_threshold: 1.35
+temperature:
+- 0.0
+- 0.2
+- 0.4
+- 0.6
+- 0.8
+- 1.0
+logprob_threshold: -1.0
+no_speech_threshold: 0.6
+return_timestamps: true
+task: transcribe
